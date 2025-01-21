@@ -30,12 +30,3 @@ The API is built using **Flask** and **scikit-learn**.
 - **pandas:** Data processing and manipulation.
 
 ---
-
-## Usage Instructions
-
-### 1. Upload Dataset (POST `/upload`)
-**Request:** Use a tool like Postman or cURL to send a file.
-
-```bash
-curl -X POST http://127.0.0.1:5000/upload \
--F "file=@/path/to/your/dataset.csv"
